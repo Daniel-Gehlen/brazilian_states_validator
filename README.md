@@ -1,3 +1,26 @@
+# Report: Gem BrazilianStatesValidator
+
+## Objective:
+The BrazilianStatesValidator gem was created with the aim of providing a simple and easy-to-use validation for Brazilian state codes (such as state abbreviations) in Ruby on Rails projects using the ActiveRecord framework.
+
+## Technical Details:
+
+### Gem Structure:
+- Gemspec: The brazilian_states_validator.gemspec file was configured to define the gem details, such as name, version, author, description, dependencies, etc.
+- Validation: Validation of Brazilian state codes was implemented using ActiveRecord and Ruby.
+- RSpec Tests: Unit tests were written using RSpec to ensure that the validation works as expected.
+- Generator: A generator was added to facilitate the installation and usage of the gem in Rails projects by copying the necessary files to the application when the gem is installed.
+
+### Main Methods:
+- valid?: A main method was implemented to validate Brazilian state codes. This method checks if a given state abbreviation is valid.
+
+## Installation:
+The gem was configured with an install.rb file to automatically copy the necessary files to the Rails application when the gem is installed, making it easy to integrate into existing projects.
+
+## Conclusion:
+The BrazilianStatesValidator gem provides a simple and effective way to validate Brazilian state codes in Ruby on Rails projects. Its clean implementation and thorough testing ensure its reliability and usability in a variety of development scenarios. With its easy installation and smooth integration, it becomes a valuable tool for developers dealing with geographic data related to Brazil in their Rails applications.
+
+
 # BrazilianStatesValidator
 
 TODO: Delete this and the text below, and describe your gem
